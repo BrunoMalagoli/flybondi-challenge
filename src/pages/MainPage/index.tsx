@@ -5,7 +5,6 @@ import dataset from "../../../dataset.json";
 import { DataTypes } from "./components/types";
 const MainPage = () => {
   const flyData: DataTypes = dataset;
-  console.log(flyData);
   return (
     <>
       <NavBar />

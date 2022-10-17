@@ -1,10 +1,13 @@
 import "./App.css";
+import FilterContextProvider from "./contexts/FilterContext/FilterContextProvider";
 import MainPage from "./pages/MainPage";
 
 function App() {
   return (
     <>
-      <MainPage />
+      <FilterContextProvider>
+        <MainPage />
+      </FilterContextProvider>
     </>
   );
 }
