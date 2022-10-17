@@ -1,9 +1,10 @@
 import { Stack } from "@mui/material";
 import { Box } from "@mui/system";
+import { DataTypes } from "../types";
 import IntegrantsFilter from "./components/IntegrantsFilter";
 import PriceFilter from "./components/PriceFilter";
 
-const FlitersSection = () => {
+const FlitersSection = ({ props }: { props: DataTypes }) => {
   return (
     <>
       <Stack
